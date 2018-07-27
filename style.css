@@ -14,10 +14,7 @@ body {
     font-size: 25px;
     text-align: center;
     z-index: 10;
-
-
 }
-
 
 .btn {
     background-color: #00cccc;
@@ -32,6 +29,7 @@ body {
 }
 
 #logo{
+    display: flex;
     height: 100px;
     width: 100%;
     background-color: #00B7FF;
@@ -268,6 +266,11 @@ body {
 
 @media only screen and (max-width: 750px) {
 
+    .searchButton {
+        width: 7%;
+        font-size: 20px;
+    }
+
     .api .msg .resultDiv .result {
         width: 45%;
         height: 335px;
@@ -295,8 +298,39 @@ body {
     }
 }
 
+@media only screen and (max-width: 630px){
+
+    .modov {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: 10px;
+        margin-left: 2px;
+
+    }
+    .modimg{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 @media only screen and (max-width: 600px) {
+
+    .search {
+        width: 75%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .searchButton {
+        width: 10%;
+        font-size: 20px;
+    }
 
     .api .msg .resultDiv .result {
         width: 80%;
@@ -311,6 +345,10 @@ body {
 }
 
 @media only screen and (max-width: 550px) {
+
+    #logo{
+        background-image: url(back3small1.png);
+    }
 
     .api .msg .resultDiv .result {
         width: 80%;
@@ -340,6 +378,22 @@ body {
 
 @media only screen and (max-width: 450px) {
 
+    #logo{
+        background-image: url(back3small2.png);
+    }
+
+    #navbox{
+        height: 52px;
+    }
+    #searchwrap{
+        top: 51px;
+    }
+
+    .btn {
+        padding: 12px 16px;
+        font-size: 20px;
+    }
+
     .api .msg .resultDiv .result {
         width: 80%;
         height: 300px;
@@ -349,5 +403,18 @@ body {
         cursor: pointer;
         margin: 13px;
 
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    #navbox{
+        height: 50px;
+    }
+    #searchwrap{
+        top: 49px;
+    }
+    .btn {
+        padding: 12px 16px;
+        font-size: 17px;
     }
 }

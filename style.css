@@ -210,11 +210,6 @@ body {
         width: 30%;
         height: 390px;
         padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-        margin: 13px;
-
     }
 }
 
@@ -224,12 +219,6 @@ body {
     .api .msg .resultDiv .result {
         width: 45%;
         height: 450px;
-        padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-        margin: 13px;
-
     }
 }
 
@@ -237,14 +226,7 @@ body {
 @media only screen and (max-width: 900px){
 
     .api .msg .resultDiv .result {
-        width: 45%;
         height: 380px;
-        padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-        margin: 13px;
-
     }
 }
 
@@ -252,14 +234,7 @@ body {
 @media only screen and (max-width: 800px) {
 
     .api .msg .resultDiv .result {
-        width: 45%;
         height: 360px;
-        padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-        margin: 13px;
-
     }
 }
 
@@ -272,14 +247,7 @@ body {
     }
 
     .api .msg .resultDiv .result {
-        width: 45%;
         height: 335px;
-        padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-        margin: 13px;
-
     }
 }
 
@@ -287,14 +255,8 @@ body {
 @media only screen and (max-width: 675px) {
 
     .api .msg .resultDiv .result {
-        width: 80%;
-        height: 500px;
-        padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-
-
+        width: 90%;
+        height: 550px;
     }
 }
 
@@ -333,14 +295,7 @@ body {
     }
 
     .api .msg .resultDiv .result {
-        width: 80%;
-        height: 450px;
-        padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-        margin: 13px;
-
+        height: 500px;
     }
 }
 
@@ -351,28 +306,14 @@ body {
     }
 
     .api .msg .resultDiv .result {
-        width: 80%;
-        height: 400px;
-        padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-        margin: 13px;
-
+        height: 450px;
     }
 }
 
 @media only screen and (max-width: 500px) {
 
     .api .msg .resultDiv .result {
-        width: 80%;
-        height: 350px;
-        padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-        margin: 13px;
-
+        height: 400px;
     }
 }
 
@@ -395,14 +336,7 @@ body {
     }
 
     .api .msg .resultDiv .result {
-        width: 80%;
-        height: 300px;
-        padding: 6px;
-        float: left;
-        text-align: center;
-        cursor: pointer;
-        margin: 13px;
-
+        height: 350px;
     }
 }
 
@@ -416,5 +350,8 @@ body {
     .btn {
         padding: 12px 16px;
         font-size: 17px;
+    }
+    .api .msg .resultDiv .result {
+        height: 330px;
     }
 }
